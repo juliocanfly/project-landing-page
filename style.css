@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    border: 4px;
+    border-color: red;
+    border-style: solid;
+    
+    align-self: stretch;
+}
+
+.header, .footer {
+    height: 25px;
+}
+
+.container-one, .container-two, .container-three, .container-four {
+    flex-grow: 1;
+}
