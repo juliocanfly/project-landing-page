@@ -1,26 +1,223 @@
+/* -------------------------------------------------------------------------------------------------------------------- */
 body {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    /* Provisory */
+    border: 4px;
+    border-color: red;
+    border-style: solid;    
 }
 
-div {
+.header, .container-one, .container-two, .container-three, .container-four, .footer {
+    /* Provisory */
+    border: 4px;
+    border-color: blue;
+    border-style: solid;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 4em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    /* Center text/content vertically and horizontally */
+    text-align: center;
+    align-content: center;
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+/* Links in a list on the top right corner */
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;        
+}
+
+li {
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;    
+}
+
+.footer {
+    text-align: center;
+    align-content: center;    
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+.container-one {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-container-one {
+    max-width: 500px;
+    flex-basis: 100%;
+    text-align: left;
+    align-content: center;
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.text1, .text2, .first-call {
+    padding: 0;
+    margin: 0;
+    /* Provisory */
     border: 4px;
     border-color: red;
     border-style: solid;
-    
-    align-self: stretch;
 }
 
-.header, .footer {
-    height: 25px;
+.sub-container-image {
+    min-height: 250px;
+    max-width: 500px;
+    flex-basis: 100%;
+    text-align: center;
+    align-content: center;
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+.container-two {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.container-one, .container-two, .container-three, .container-four {
+.title-container-two {
+    align-self: center;
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.card-container-two {
+    align-self: center;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.card-one, .card-two, .card-three, .card-four {
+    max-width: 150px;
+    gap: 2em;
+    /* Provisory */
+    border: 4px;
+    border-color: red;
+    border-style: solid;
+}
+
+.picture-one, .picture-two, .picture-three, .picture-four {
+    min-height: 150px;
+    /* Provisory */
+    border: 4px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.subtext-one, .subtext-two, .subtext-three, .subtext-four {
+    text-align: center;
+    /* Provisory */
+    border: 4px;
+    border-color: blue;
+    border-style: solid;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+.container-three {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-container-three {
+    max-width: 600px;
+    /* Provisory */
+    border: 4px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.text3, .text4 {
+    padding: 0;
+    margin: 0;
+    /* Provisory */
+    border: 4px;
+    border-color: red;
+    border-style: solid;
+}
+
+.text4 {
+    text-align: right;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* .container-four {
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-container-four {
+    display: flex;
     flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 2em;
+    border: 4px;
+    border-color: red;
+    border-style: solid;
 }
+
+.sub-container-four-left {
+    text-align: left;
+    border: 4px;
+    border-color: red;
+    border-style: solid;
+}
+
+.last-call {
+    border: 4px;
+    border-color: red;
+    border-style: solid;
+}
+
+.text5, .text6 {
+    border: 4px;
+    border-color: orange;
+    border-style: solid;
+} */
