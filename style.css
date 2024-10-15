@@ -4,17 +4,8 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    /* Provisory */
-    border: 4px;
-    border-color: red;
-    border-style: solid;    
-}
-
-.header, .container-one, .container-two, .container-three, .container-four, .footer {
-    /* Provisory */
-    border: 4px;
-    border-color: blue;
-    border-style: solid;
+    /* Colors and font styles */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* -------------------------------------------------------------------------------------------------------------------- */
 .header {
@@ -24,16 +15,17 @@ body {
     gap: 4em;
     padding-top: 20px;
     padding-bottom: 20px;
+    /* Colors and font styles */
+    background-color: #1f2937;
 }
 
 .logo {
     /* Center text/content vertically and horizontally */
     text-align: center;
     align-content: center;
-    /* Provisory */
-    border: 4px;
-    border-color: yellow;
-    border-style: solid;
+    /* Colors and font styles */
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 /* Links in a list on the top right corner */
@@ -44,19 +36,20 @@ ul {
     margin: 0;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2em;        
-}
-
-li {
-    /* Provisory */
-    border: 4px;
-    border-color: yellow;
-    border-style: solid;    
+    gap: 2em;
+    /* Colors and font styles */
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .footer {
     text-align: center;
-    align-content: center;    
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Colors and font styles */
+    background-color: #1f2937;
+    color: #e5e7eb;    
 }
 /* -------------------------------------------------------------------------------------------------------------------- */
 .container-one {
@@ -64,6 +57,8 @@ li {
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    /* Colors and font styles */
+    background-color: #1f2937;
 }
 
 .sub-container-one {
@@ -71,19 +66,36 @@ li {
     flex-basis: 100%;
     text-align: left;
     align-content: center;
-    /* Provisory */
-    border: 4px;
-    border-color: yellow;
-    border-style: solid;
 }
 
-.text1, .text2, .first-call {
-    padding: 0;
-    margin: 0;
-    /* Provisory */
-    border: 4px;
-    border-color: red;
+.text1 {
+    /* Colors and font styles */
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text2 {
+    /* Colors and font styles */
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-call {
+    background-color: #3882f6;
+
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 14px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border-color: #3882f6;
     border-style: solid;
+    border-radius: 5px;
 }
 
 .sub-container-image {
@@ -96,6 +108,7 @@ li {
     border: 4px;
     border-color: yellow;
     border-style: solid;
+    color: #e5e7eb;
 }
 /* -------------------------------------------------------------------------------------------------------------------- */
 .container-two {
@@ -108,10 +121,10 @@ li {
 
 .title-container-two {
     align-self: center;
-    /* Provisory */
-    border: 4px;
-    border-color: yellow;
-    border-style: solid;
+    /* Colors and font styles */
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .card-container-two {
@@ -120,23 +133,16 @@ li {
     gap: 2em;
     flex-wrap: wrap;
     justify-content: center;
-    /* Provisory */
-    border: 4px;
-    border-color: yellow;
-    border-style: solid;
 }
 
 .card-one, .card-two, .card-three, .card-four {
     max-width: 150px;
     gap: 2em;
-    /* Provisory */
-    border: 4px;
-    border-color: red;
-    border-style: solid;
 }
 
 .picture-one, .picture-two, .picture-three, .picture-four {
     min-height: 150px;
+    border-radius: 10px;
     /* Provisory */
     border: 4px;
     border-color: blue;
@@ -145,10 +151,6 @@ li {
 
 .subtext-one, .subtext-two, .subtext-three, .subtext-four {
     text-align: center;
-    /* Provisory */
-    border: 4px;
-    border-color: blue;
-    border-style: solid;
 }
 /* -------------------------------------------------------------------------------------------------------------------- */
 .container-three {
@@ -156,68 +158,87 @@ li {
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    /* Colors and font styles */
+    background-color: #e5e7eb;
 }
 
 .sub-container-three {
-    max-width: 600px;
-    /* Provisory */
-    border: 4px;
-    border-color: yellow;
-    border-style: solid;
+    max-width: 900px;
 }
 
-.text3, .text4 {
+.text3 {
     padding: 0;
     margin: 0;
-    /* Provisory */
-    border: 4px;
-    border-color: red;
-    border-style: solid;
+    /* Colors and font styles */
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .text4 {
+    padding: 0;
+    margin: 0; 
+    font-weight: 900;
     text-align: right;
+    /* Colors and font styles */
+    font-size: 36px;
+    color: #1f2937;
 }
 /* -------------------------------------------------------------------------------------------------------------------- */
-
-/* .container-four {
+.container-four {
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
+    justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .sub-container-four {
+    /* flex container which holds items 'sub-container-four-left' and 'last-call'*/
     display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     gap: 2em;
-    border: 4px;
-    border-color: red;
-    border-style: solid;
+    flex-wrap: wrap;
+    /* flex item which is held at the same time: flex-basis makes it take as much width as its container and max-width makes it stop growing up at 1000px */
+    flex-basis: 100%;
+    max-width: 1000px;
+    justify-content: space-around;
+    /* Colors and font styles */
+    background-color: #3882f6;
+    border-radius: 5px;
 }
 
-.sub-container-four-left {
+.text5 {
+    margin: 0;
+    padding: 0;
     text-align: left;
-    border: 4px;
-    border-color: red;
-    border-style: solid;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.text6 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #e5e7eb;
 }
 
 .last-call {
-    border: 4px;
-    border-color: red;
-    border-style: solid;
-}
+    align-self: center;
+    background-color: #3882f6;
 
-.text5, .text6 {
-    border: 4px;
-    border-color: orange;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 14px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    border-color: #f9faf8;
     border-style: solid;
-} */
+    border-radius: 5px;
+}
+/* -------------------------------------------------------------------------------------------------------------------- */
